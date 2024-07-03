@@ -1,0 +1,35 @@
+What is Bootstrap? 
+-Bootstrap is a powerful, feature-packed frontend toolkit. Build anything—from prototype to production—in minutes.
+-is a giant collection of handy, reuseable bits of code written in HTML, CSS and Javascript.
+-Its also a frontend development framework that enables developer and designers to quickly build fully responsive websites
+-Bootstrap is completely free to use in personal and commercial projects.
+
+First version - 2011 at Twitter
+Current Version - 5.3 or v5
+
+What's new in v5?
+
+1.Brand new look and feel
+2.New typography
+3.no jquery required anymore
+4.dropping support from internet explore
+
+What is REsponisve Design?
+-Responsive web design is the approach that suggests that design and development should respond to the user's behaviour and environment based on the screen size, platform and orientation(landscape and portrait).
+
+
+ // Bootstrap: Container Layout
+ Container are the most basic layout element in Bootstrap. Containers are used to pad the content inside of them.
+
+ There are 2 types of Container classes available
+ 1. .container :- Provide Responsive fixed width container.
+ 2. .container-fluid :- provides full width container, spanning the entire width of the viewport
+
+ Fluid Container : width is always 100%
+
+ <div class="container-fluid"></div>
+
+ Fixed  container : max-width:- xtrasmall(xs) - 100%, small(s) - 540px, medium(m) - 720px, large - 960px
+
+ <div class="container"></div>  //fixed width
+

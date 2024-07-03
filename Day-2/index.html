@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .navbar-nav {
+            color: white;
+        }
+
+        .navbar-brand {
+            color: white;
+        }
+
+        .navbar-collapse {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid bg-dark p-3 mt-3">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav> <br> <br>
+
+
+    <div class="container-fluid text-center">
+        <div class="row">
+            <div class="col border bg-danger p-3">
+                Column
+            </div>
+            <div class="col-sm-6 border bg-danger p-3">
+                Column
+            </div>
+            <div class="col border bg-danger p-3">
+                Column
+            </div>
+        </div>
+    </div> <br><br>
+
+    <div class="container text-center">
+        <div class="row justify-content-md-center border bg-primary m-3">
+            <div class="col col-lg-2">
+                1 of 3
+            </div>
+            <div class="col-md-auto">
+                Variable width content
+            </div>
+            <div class="col col-lg-2">
+                3 of 3
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                1 of 3
+            </div>
+            <div class="col-md-auto">
+                Variable width content
+            </div>
+            <div class="col col-lg-2">
+                3 of 3
+            </div>
+        </div>
+    </div> <br> <br>
+
+    <div class="container text-center">
+        <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+        <div class="row">
+            <div class="col-md-8 bg-primary border p-3">.col-md-8</div>
+            <div class="col-6 col-md-4 bg-danger border p-3">.col-6 .col-md-4</div>
+        </div>
+
+        <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+        <div class="row">
+            <div class="col-6 col-md-4 bg-secondary border p-3">.col-6 .col-md-4</div>
+            <div class="col-6 col-md-4 bg-success border p-3">.col-6 .col-md-4</div>
+            <div class="col-6 col-md-4 bg-warning border p-3">.col-6 .col-md-4</div>
+        </div>
+
+        <!-- Columns are always 50% wide, on mobile and desktop -->
+        <div class="row">
+            <div class="col-6 bg-secondary border p-3">.col-6</div>
+            <div class="col-6 bg-danger border p-3">.col-6</div>
+        </div>
+    </div> <br> <br>
+
+    <div class="clearfix">
+        <img src="https://imgd.aeplcdn.com/370x208/n/cw/ec/130591/fronx-exterior-right-front-three-quarter-109.jpeg?isig=0&q=80"
+            class="col-md-6 float-md-end mb-3 ms-md-3" alt="...">
+
+        <p>
+            A paragraph of placeholder text. We're using it here to show the use of the clearfix class. We're adding
+            quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.
+        </p>
+
+        <p>
+            As you can see the paragraphs gracefully wrap around the floated image. Now imagine how this would look with
+            some actual content in here, rather than just this boring placeholder text that goes on and on, but actually
+            conveys no tangible information at. It simply takes up space and should not really be read.
+        </p>
+
+        <p>
+            And yet, here you are, still persevering in reading this placeholder text, hoping for some more insights, or
+            some hidden easter egg of content. A joke, perhaps. Unfortunately, there's none of that here. Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Voluptate ratione enim blanditiis fuga eligendi minima facere,
+            eaque pariatur animi magnam nostrum nobis ullam quibusdam consectetur ad similique esse quis, sapiente earum
+            debitis aliquid veritatis sequi quaerat corrupti. Vero, aliquam nisi enim minus quia debitis ex repudiandae
+            voluptatem? Asperiores ipsa nam illum corporis velit, nulla, nisi ex rem ipsum et magni, sed perspiciatis
+            fugiat nesciunt corrupti quos! Adipisci, a voluptates. Tempora assumenda deserunt doloremque aperiam,
+            laboriosam consectetur nam quo. Commodi aspernatur animi aperiam ab magni a pariatur, atque soluta dolores,
+            ipsam molestias exercitationem nostrum eaque dolor voluptates ad consequatur quam quidem impedit
+            consequuntur, reprehenderit mollitia hic recusandae doloremque! Mollitia aliquid neque eius voluptate
+            voluptatum nisi quis necessitatibus quidem quibusdam perferendis nostrum ducimus ad porro unde odit tenetur
+            possimus cupiditate accusantium, repudiandae cum minima reprehenderit dolore. Tempora quaerat doloribus
+            voluptate illum, dolor ipsam porro est natus incidunt cumque culpa rem aut, magnam nemo nihil aliquid,
+            inventore autem enim nulla ipsa. Consequuntur, animi veritatis. Ipsa, sint, fugiat vel quaerat perspiciatis
+            natus quia vitae velit et nobis architecto ea qui. Cum odio asperiores repellat necessitatibus debitis
+            temporibus illum delectus molestiae aperiam. Laboriosam itaque iusto repudiandae amet officia ad ipsum odio,
+            neque saepe omnis aut!
+        </p>
+    </div> <br> <br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://spn-sta.spinny.com/blog/20220926162307/Maruti-Suzuki-Grand-Vitara.jpg?compress=true&quality=80&w=1200&dpr=2.6"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://spn-sta.spinny.com/blog/20220926162307/Maruti-Suzuki-Grand-Vitara.jpg?compress=true&quality=80&w=1200&dpr=2.6"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://spn-sta.spinny.com/blog/20220926162307/Maruti-Suzuki-Grand-Vitara.jpg?compress=true&quality=80&w=1200&dpr=2.6"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div> <br> <br>
+
+    <button type="button" class="btn btn-primary">Primary</button>
+    <button type="button" class="btn btn-secondary">Secondary</button>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-danger">Danger</button>
+    <button type="button" class="btn btn-warning">Warning</button>
+    <button type="button" class="btn btn-info">Info</button>
+    <button type="button" class="btn btn-light">Light</button>
+    <button type="button" class="btn btn-dark">Dark</button>
+
+    <button type="button" class="btn btn-link">Link</button>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
